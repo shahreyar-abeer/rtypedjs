@@ -5,11 +5,10 @@
 #' @import htmlwidgets
 #'
 #' @export
-typed <- function(strings, ...,  width = NULL, height = NULL, elementId = NULL) {
+typed <- function(...,  width = NULL, height = NULL, elementId = NULL) {
 
   # forward options using x
   x = list(
-    strings = strings,
     ...
   )
 
